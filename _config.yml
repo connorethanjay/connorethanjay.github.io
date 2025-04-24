@@ -24,7 +24,7 @@ github_username: 'connorethanjay'
 
 # Build settings
 markdown: kramdown
-remote-theme: phantom # Uncomment once published to RubyGems
+remote-theme: jamigibbs/phantom
 plugins:
   - jekyll-paginate
 
