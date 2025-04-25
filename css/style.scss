@@ -65,10 +65,15 @@ img {
 }
 
 hero-img {
-  width: 45%;
+  width: 100%;
   border-radius: 8px;
+  align-content: center;
 }
 
+my {
+  
+  width: 35%;
+}
 button.btn, input.btn {
   padding: 12px 35px;
   margin: 2em 0.5em;
