@@ -1,13 +1,13 @@
 ---
 layout: inner
 position: left
-title: 'Phantom'
-date: 2016-02-20 21:15:00
-categories: development design
-tags: Jekyll Sass Bootstrap
-featured_image: '/img/posts/04_phantom-jekyll-1130x864-2x.png'
-project_link: 'https://github.com/jamigibbs'
-button_icon: 'flask'
+title: 'Independent Skills Development Environment'
+date: 2024-10-4 12:15:00
+categories: networking virtualization
+tags: Networking Virtualization Homelab
+featured_image: '/img/posts/isde-1130x864.png'
+project_link: 'https://www.connorjay.me/ISDE-Homelab/'
+button_icon: 'ethernet'
 button_text: 'Visit Project'
-lead_text: "A minimalist Jekyll theme that you're looking at it right now"
+lead_text: "A datacenter-grade home-lab environment used for studying Networking & Cybersecurity technologies outside of classes."
 ---
