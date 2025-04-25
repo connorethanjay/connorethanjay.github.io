@@ -60,8 +60,9 @@ a {
   }
 }
 
-portfolio-img {
-  width: 100%;
+img-responsive {
+  width: 80%;
+  border-radius: 8px;
 }
 
 hero-img {
@@ -70,10 +71,6 @@ hero-img {
   margin: auto;
 }
 
-my {
-  border-radius: 8px;
-  width: 30%;
-}
 button.btn, input.btn {
   padding: 12px 35px;
   margin: 2em 0.5em;
