@@ -66,13 +66,13 @@ img {
 
 hero-img {
   width: 100%;
-  border-radius: 8px;
-  align-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 my {
-  
-  width: 35%;
+  border-radius: 8px;
+  width: 40%;
 }
 button.btn, input.btn {
   padding: 12px 35px;
