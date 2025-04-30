@@ -6,7 +6,7 @@ permalink: /about/
 # A little bit about me.
 
 <div class="hero-img">
-<img src="{{ site.url }}/img/connor.jpg" style="border-radius: 36px; width: 25%; display: block; margin: auto;">  
+<img src="{{ site.url }}/img/connor.jpg" style="border-radius: 36px; width: 25%; display: block; margin: auto; padding: 15px 15px 15px 15px;">  
 </div>
 
 <p> I found my passion in High School where I was able to experience and eventually excel working with enterprise networking equipment. 
