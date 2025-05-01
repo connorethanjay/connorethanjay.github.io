@@ -5,22 +5,26 @@
 
     <div class="footer-col-wrapper">
       <div class="footer-col  footer-col-1">
-        <ul class="contact-list">
-          <li><strong>Connor Jay</strong></li>
+          <a class="navbar-brand">Connor E Jay</a>
+          <ul class="contact-list">
           <li><a href="mailto:connor.jay@mymail.champlain.edu">connor.jay@mymail.champlain.edu</a></li>
           <li><a href="mailto:connorjay130@gmail.com">connorjay130@gmail.com</a></li>
         </ul>
       </div>
 
       <div class="footer-col  footer-col-2">
-              <a href="https://github.com/{{ site.github_username }}"></a><i class="fa fa-github fa-lg"></i>Github
+        {% if site.github_username != '' %}
+              <a href="https://github.com/{{ site.github_username }}"><i class="fa fa-github fa-lg"></i>Github</a>
               <br>
-              <a href="https://linkedin.com/in/{{ site.linkedin_username }}"></a><i class="fa fa-linkedin fa-lg"></i>Linkedin
+        {% if site.linkedin_username != '' %}
+              <a href="https://linkedin.com/in/{{ site.linkedin_username }}"><i class="fa fa-linkedin fa-lg"></i>Linkedin</a>
       </div>
 
       <div class="footer-col  footer-col-3">
          <p class="text">
-Final year undergraduate in the Computer Networking and Cybersecurity major, Champlain College. Junior Solutions Engineer at Simpleroute of Vermont.
+            Junior Solutions Engineer at Simpleroute
+           <br>
+            Final-year Computer Networking and Cybersecurity Undergraduate at Champlain College
           </div>
         </div>
       </div>
