@@ -9,7 +9,7 @@ permalink: /about/
 <img src="{{ site.url }}/img/connor.jpg" style="border-radius: 10%; width: 25%; display: block; margin: auto; padding: 5% 5% 5% 5%;">  
 </div>
 
-<p> I found my passion in High School where I was able to experience and eventually excel working with enterprise networking equipment. 
+<p> I found my passion when I was in High School where I was able to experience and eventually excel working with enterprise networking equipment. 
 An experience that changed my life for the better, when I was struggling with finding anything to look forward to. </p>
 
 <p>I worked hard and my journey has continued on, getting my Cisco CCNA certification at a very young age and continuing my studies while I work as a Junior Solutions Engineer with Simpleroute of Vermont.</p>
