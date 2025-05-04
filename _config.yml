@@ -15,7 +15,8 @@
 # in the templates via {{ site.myvariable }}.
 title: "Connor E Jay"
 email: 'connorjay130@gmail.com'
-description: "Junior Solutions Engineer"
+tagline: "Junior Solutions Engineer"
+description: "I'm a Junior Solutions Engineer, I'm big on computer networking & I enjoy ginger turmeric tea."
 #baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.connorjay.me" # the base hostname & protocol for your site, e.g. https://example.com
 linkedin_username: 'connorethanjay'
