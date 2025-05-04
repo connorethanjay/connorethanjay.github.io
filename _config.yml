@@ -27,7 +27,7 @@ markdown: kramdown
 remote-theme: jamigibbs/phantom
 plugins:
   - jekyll-paginate
-
+  - jekyll-seo-tag
 ############################################################
 # Site configuration for the Jekyll 3 Pagination Gem
 # The values here represent the defaults if nothing is set
