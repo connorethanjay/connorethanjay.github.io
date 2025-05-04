@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 # A little bit about me.
-<div class='body' style="height=100vh">
+<div class='body' style="height: 100vh;">
 <div class="hero-img">
 <img src="{{ site.url }}/img/connor.jpg" style="border-radius: 15%; width: 35%; display: block; margin: auto; padding: 3%">
 </div>
