@@ -20,7 +20,8 @@ $primary: #0a0a0a;
 $secondary: #FF7B7B;
 
 %opensans { font-family: 'Open Sans', sans-serif; }
-%cgaramond { font-family: 'Cormorant Garamond', serif; }
+%merriweather { font-family: 'Cormorant Garamond', 'Merriweather', serif; }
+
 
 /*--------------------------------------------------------------
 	1.0 Defaults
@@ -39,7 +40,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  @extend %cgaramond;
+  @extend %merriweather;
   font-weight: 400;
 }
 
