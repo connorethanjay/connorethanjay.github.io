@@ -181,28 +181,26 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
 <div class="screen-reader-response">
 <p role="status" aria-live="polite" aria-atomic="true"></p> <ul></ul>
 </div>
-<form
-  action="https://formspree.io/f/mvgaappe"
-  class="fs-form"
-  target="_top"
-  method="POST"
->
-  <div class="fs-field">
-    <label class="fs-label" for="email">Email</label>
-    <input class="fs-input" id="email" name="email" required />
+<form action="https://formspree.io/f/mvgaappe" method="POST">
+	<div class="div-align">
+	<div>
+  <label class="fs-label">
+    Your email:
+	  <br>
+    <input class="fs-input" type="email" name="email">
+  </label>
+	</div>
+	<br>
+ <div>
+  <label class="fs-label">
+    Your message:
+	  <br>
+    <textarea class="fs-input" name="message"></textarea>
+  </label>
   </div>
-  <div class="fs-field">
-    <label class="fs-label" for="message">Message</label>
-    <textarea
-      class="fs-textarea"
-      id="message"
-      name="message"
-      required
-    ></textarea>
-  </div>
-  <div class="fs-button-group">
-    <button class="fs-button" type="submit">Submit</button>
-  </div>
+		<br>
+<button class="fs-button" type="submit">Submit</button>
+		</div>
 </form>
 </div>
 </div>
