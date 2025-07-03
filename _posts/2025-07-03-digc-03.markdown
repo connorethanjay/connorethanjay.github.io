@@ -1,0 +1,28 @@
+---
+layout: posts
+title:  "DIGC-3600 Unit Three Analysis: Privacy, Toxic Communication, and the Strive for Authentic Connection
+date:   2025-07-03 15:30:0
+categories: DIGC-3600
+---
+
+“What are the concerns and ethical challenges that come along with communicating through different technologies, and how do we manage them?” – The answer to this question would definitely vary from person to person. Technologies like your phone and your computer allow you hundreds of different ways to communicate with other people.
+
+Social media apps like Discord, Instagram, Tiktok, websites like Google, YouTube, Amazon, etc. Even for people like myself who “seldom interact with such services” (Shahbaz & Funk), there is information about my “personal identity” which is scraped from simply just shopping online for leather watch bands or walking to the nearby grocery store to get a bag of chips.
+
+When I was in High School taking classes on Networking / Cybersecurity, my professor, Mr. R, was (still is!) very big on the right to privacy. He and I would talk about how you can never truly remove your “digital footprint” but you can minimize it to the best of your ability. In recent years I’ve seen that students who would say nasty things to others at my college would also do this to prevent their real identity being discovered on the Yik Yak “anonymous” social media app I mentioned in my last post. 
+
+These students who are saying nasty things behind the screen are experiencing an “online disinhibition effect”. An “online disinhibition effect” can be positive, negative, or both. It essentially means that the person feels less restrained to express themselves freely in their words online, to speak their mind to others. While this can be positive, most students I’ve seen are affected by “toxic online disinhibition”, the negative behaviors that ODE encompasses. 
+
+These students say very nasty things about other students on the anonymous social media apps, hiding behind the screen and so-called “anonymity” so they do not get confronted. I am prone to online disinhibition myself, as are most people who use social media. The disconnect between the person on the other site is noticeable and asynchronous communication can cause us to grow a deficit in our empathy.
+
+To navigate around these ethical challenges, there are many methods you can use. While it’s nearly impossible to not be tracked by today’s standard: the modern smartphone is a GPS in your pocket (a government-standardized navigation, positioning, and tracking system), you can reduce certain tracking methods by using a secure web browser eg. Librewolf, being careful on which sites you go on, being careful regarding where you access your sites of choice, and surrounding yourself with people who support you in person rather than negative people who bring you down behind the screen.
+
+Works Cited
+
+Dennis, Dannah. “Yik Yak on Campus: Navigating Identity and Violence through Hyperlocal Anonymity.” MediaWell, Social Science Research Council, 1 Nov. 2023, https://just-tech.ssrc.org/articles/yik-yak-on-campus-navigating-identity-and-violence-through-hyperlocal-anonymity/.
+
+Personal and Social Identity: Who Are You Through Others’ Eyes | Psychology Today. https://www.psychologytoday.com/us/blog/lifetime-connections/202110/personal-and-social-identity-who-are-you-through-others-eyes. Accessed 3 Jul. 2025.
+
+“Social Media Surveillance.” Freedom House, https://freedomhouse.org/report/freedom-on-the-net/2019/the-crisis-of-social-media/social-media-surveillance. Accessed 3 Jul. 2025.
+
+Suler, John. “The Online Disinhibition Effect.” CyberPsychology & Behavior, vol. 7, no. 3, Jun. 2004, pp. 321–26. DOI.org (Crossref), https://doi.org/10.1089/1094931041291295.

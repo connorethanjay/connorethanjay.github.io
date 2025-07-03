@@ -1,0 +1,28 @@
+---
+layout: posts
+title:  "DIGC-3600 Unit Two Analysis: Compartmentalization and Balance in Identity"
+date:   2025-06-23 15:30:0
+categories: DIGC-3600
+---
+
+I confidently can say that I set strong boundaries between my work life and my social life. To me, you can never be too careful when it comes to your social life. Despite this, I enjoy practicing my craft outside of the office. 
+
+I was recently asked the question of “What limits do we set ourselves to be happy, successful, and maintain productive boundaries between the areas of our lives?” – I think this is an awesome question for this blog post and I’d like to take some time to delve into it. As people, we have a social identity for each place or person we interact with. To a college instructor, some social identities of mine may be that I am a young student who loves to talk about his datacenter lab environment. However, to my friends I may be the big friend who moves heavy stuff for people and could finish a cheesesteak in a matter of a few minutes.
+
+These two social identities are completely different because they are meant for different people. If you have heard of Yik Yak, it is an “anonymous” social media app for college students. 
+
+{:refdef: style="text-align: center;"}
+![Yik Yak, the "anonymous" social media app](/assets/images/yikyak.jpg){: width="500px" }
+{: refdef}
+
+Students who do not follow typical social norms on the platform will say nasty things to each other because that “personal connection” is missing. I found it frustrating enough to deconstruct the platform in an attempt to retrieve identifiable details about users from the app. 
+
+This was a somewhat successful project. While I was working on this during my 2nd year of college, I spent hours trying to disassemble the information traveling from my phone to the app. I did not set a boundary for compartmentalization, and on one specific occasion I can recall waking up at my usual time of 5:30 AM feeling like I had made good progress, but at the same time groggier than I typically would be since I had been using a screen until 12 AM. 
+
+When we are working with goals in mind, our boundaries still need to be set, but perhaps adjusted to accommodate those goals. There may be a time where you need to stay late to finish a project. The people who have the discipline to separate their work life from personal life, but to commit to something when they absolutely need to, that to me is what will maintain a happy, successful, and productive work life.
+
+Works Cited
+
+"Personal and Social Identity: Who Are You Through Others’ Eyes" Psychology Today. https://www.psychologytoday.com/us/blog/lifetime-connections/202110/personal-and-social-identity-who-are-you-through-others-eyes. Accessed 3 Jul. 2025.
+
+“Work Life Balance.” Mental Health America, https://mhanational.org/resources/work-life-balance/. Accessed 3 Jul. 2025.
