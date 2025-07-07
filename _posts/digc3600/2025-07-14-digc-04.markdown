@@ -1,0 +1,26 @@
+---
+layout: posts
+title:  "DIGC-3600 Unit Four Analysis: Ethical Vigilantism & the Dilemma between privacy & justice"
+date:   2025-07-14 15:30:0
+categories: DIGC-3600
+---
+
+
+“What are our ethical responsibilities as consumer-citizens in using (digital) technologies?” – When I read this question and think about my previous postings regarding the pseudo-anonymous app “Yik Yak”, I immediately think of my various attempts to deconstruct the social media platform. 
+
+I am not one who uses social media on a daily basis, rather I “seldom interact with such services” (Shahbaz & Funk), at least compared to most people using social media. When a friend of my partner came to me upset that people were saying mean things about them on the app because of their loud laugh, I knew it would be a good challenge to see if I could deconstruct the app and identify the culprits.
+
+Over time, since I was only viewing the very controversial and harsh posts made by crude people, the algorithm that the app uses noticed this. In Unit 4.2, it is mentioned that “you’ll see a list that’s in some fashion curated “for you” – that’s been established using an algorithm.” (Krieger). This directly happened to me because I only looked at the most controversial posts. Ones which generated or rather caused an emotional reaction towards other students. We as people react most strongly towards things of a controversial nature, content that divides us. I say yes, you say no. That kind of stuff, but on a much more fiery scale. You’d see things akin to people calling others slurs because of the toxic disinhibition they were affected by, taking photos of them without their knowledge as well. These are people creating endless conflict which is what makes it truly disappointing and motivated me even more to put a stop to it.
+
+Although to me, it seemed like it was my responsibility to identify these students and report their actions, I knew that my own actions are considered an invasion of their reasonable right to privacy. Had I reported this to faculty or college leadership, it is likely I would have also received punishment, though from law enforcement and not the college. By technicality, I had broken the law in my biased pursuit of justice. By invading their privacy via causing a cyber attack on my own personal devices, I had been able to roughly identify who made what post and when. Yik Yak, being a pseudo anonymous space, has its vulnerabilities and its benefits. You get the campus drama, the news, but the bad outweighs the good by a wide margin.
+
+
+Works Cited
+
+Bayne, Sian, et al. “The Social Value of Anonymity on Campus: A Study of the Decline of Yik Yak.” Learning, Media and Technology, vol. 44, no. 2, Apr. 2019, pp. 92–107. DOI.org (Crossref), https://doi.org/10.1080/17439884.2019.1583672.
+
+Dennis, Dannah. “Yik Yak on Campus: Navigating Identity and Violence through Hyperlocal Anonymity.” MediaWell, Social Science Research Council, 1 Nov. 2023, https://just-tech.ssrc.org/articles/yik-yak-on-campus-navigating-identity-and-violence-through-hyperlocal-anonymity/.
+
+“Social Media Surveillance.” Freedom House, https://freedomhouse.org/report/freedom-on-the-net/2019/the-crisis-of-social-media/social-media-surveillance. Accessed 3 Jul. 2025.
+
+Suler, John. “The Online Disinhibition Effect.” CyberPsychology & Behavior, vol. 7, no. 3, Jun. 2004, pp. 321–26. DOI.org (Crossref), https://doi.org/10.1089/1094931041291295.
