@@ -1,7 +1,7 @@
 ---
 layout: posts
-title:  "DIGC-3600 Unit Four Analysis: Ethical Vigilantism & the Dilemma between privacy & justice"
-date:   2025-07-14 15:30:0
+title:  "DIGC-3600 Unit Four Analysis: The Dilemma between privacy & justice"
+date:   2025-07-07 15:30:0
 categories: DIGC-3600
 ---
 
