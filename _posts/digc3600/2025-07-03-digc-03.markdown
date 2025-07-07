@@ -1,6 +1,6 @@
 ---
 layout: posts
-title:  "DIGC-3600 Unit Three Analysis: Privacy, Toxic Communication, and the Strive for Authentic Connection"
+title:  "DIGC-3600 Unit Three Analysis: Privacy and Online Disinhibition"
 date:   2025-07-03 15:30:0
 categories: DIGC-3600
 ---
