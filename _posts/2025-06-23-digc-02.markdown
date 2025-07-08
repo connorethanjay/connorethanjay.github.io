@@ -12,7 +12,7 @@ I was recently asked the question of “What limits do we set ourselves to be ha
 These two social identities are completely different because they are meant for different people. If you have heard of Yik Yak, it is an “anonymous” social media app for college students. 
 
 {:refdef: style="text-align: center;"}
-![Yik Yak, the "anonymous" social media app](/assets/images/yikyak.jpg){: width="500px" }
+![Yik Yak, the "anonymous" social media app](/wp-content/uploads/2025/07/yikyak.jpg){: width="500px" }
 {: refdef}
 
 Students who do not follow typical social norms on the platform will say nasty things to each other because that “personal connection” is missing. I found it frustrating enough to deconstruct the platform in an attempt to retrieve identifiable details about users from the app. 
