@@ -207,9 +207,8 @@ ol,ul{box-sizing:border-box}:root :where(.wp-block-list.has-background){padding:
 <div class="wp-block-kevinbatdorf-animate-in-view" animatein="animate-in-view" enabled="1" once="1" direction="1" threshold="0.2" timing="1" offset="2rem">
 <div class="wp-block-columns alignwide has-global-padding is-layout-constrained wp-block-group-is-layout-constrained wp-container-core-columns-is-layout-d0bbbce0 wp-block-columns-is-layout-flex">
 	<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
-
-    <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
-    <p class="post-meta">
+    <h1 class="post-title p-name wp-block-heading has-text-align-left is-style-default has-rethink-sans-font-family has-custom-color-1-color has-text-color" itemprop="name headline">{{ page.title | escape }}</h1>
+    <p class="post-meta is-style-default has-rethink-sans-font-family has-custom-color-1-color has-text-color">
       <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         {{ page.date | date: date_format }}
@@ -218,7 +217,7 @@ ol,ul{box-sizing:border-box}:root :where(.wp-block-list.has-background){padding:
         • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
       {%- endif -%}</p>
 
-  <div class="post-content e-content" itemprop="articleBody">
+  <div class="post-content e-content is-style-default has-rethink-sans-font-family has-custom-color-1-color has-text-color" itemprop="articleBody">
     {{ content }}
   </div>
 
