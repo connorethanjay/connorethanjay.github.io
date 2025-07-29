@@ -195,12 +195,12 @@
   {% for post in site.posts limit:4 %}
     
    <article class="post">    
-      <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
-       <div class="eyebrow">{{ post.date | date: "%d %b %Y" }}</div>
+      <h2 class="wp-block-heading has-text-align-left is-style-default has-custom-color-1-color has-text-color has-link-color has-rethink-sans-font-family wp-elements-e6f943847a0152267e27fe8fc74fa173" id="blog" style="font-style:normal;font-weight:700"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+       <div class="eyebrow has-text-align-left has-custom-color-1-color has-text-color has-link-color wp-elements-ef7f830ea68c4c337b99125fcbbc5ddf">{{ post.date | date: "%d %b %Y" }}</div>
 
     
              <div class="entry">
-      	<p>{{ post.excerpt }}</p>
+      	<p class="has-text-align-left has-custom-color-1-color has-text-color has-link-color wp-elements-ef7f830ea68c4c337b99125fcbbc5ddf">{{ post.excerpt }}</p>
 <!--         {{ post.content | truncatewords:40}}
  -->  </div>
 
