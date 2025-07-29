@@ -191,7 +191,23 @@
 
 
 
-<div style="height:400px" aria-hidden="true" class="wp-block-spacer"></div>
+<ul>
+  {% for post in site.posts limit:4 %}
+    
+   <article class="post">    
+      <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+       <div class="eyebrow">{{ post.date | date: "%d %b %Y" }}</div>
+
+    
+             <div class="entry">
+      	<p>{{ post.excerpt }}</p>
+<!--         {{ post.content | truncatewords:40}}
+ -->  </div>
+
+    </article>
+      {% endfor %}
+</ul> 
+    
 </div>
 
 
@@ -223,8 +239,6 @@
 <div style="height:var(--wp--preset--spacing--10)" aria-hidden="true" class="wp-block-spacer"></div>
 </div>
 </div>
-</div>
-
 
 
 <div class="wp-block-kevinbatdorf-animate-in-view" animatein="animate-in-view" enabled="1" once="1" direction="1" threshold="0.2" timing="1" offset="2rem">
