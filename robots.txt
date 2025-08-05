@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Disallow: /wp-includes/
+Disallow: /wp-content/
+Disallow: /assets/
+Disallow: /sass/
+
+Sitemap: https://commonalitylab.com/sitemap.xml
