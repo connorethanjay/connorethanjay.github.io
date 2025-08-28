@@ -1,0 +1,12 @@
+---
+layout: posts
+title:  "Commonality Lab: Breaking Through Cisco Licensing Roadblocks"
+date:   2025-08-28 07:30:0
+categories: CapstoneProject
+---
+
+I was setting up an older, out of service Cisco switch, specifically a 48 port C3560X model for L3 Etherchannels in the Commonality Lab when I ran into a software licensing issue. As I typically work with non software licensed models, I was baffled at how to solve the problem.
+
+Reframing my mindset to look towards resources I am still reluctant to use eg. AI overviews allowed me to resolve this by changing the image used, from LANBASE to IPSERVICES. This situation truly reinforced the concept of "No matter how much you think you know, there will always be more to learn." for me.
+
+Have you ever gotten stuck on a task, and left your comfort zone to ask for help?
