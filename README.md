@@ -1,1 +1,1 @@
-Repository containing files used for LabScale's website.
+Repository containing files used for my website.
