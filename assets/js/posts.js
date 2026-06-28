@@ -72,7 +72,7 @@ After approximately three years of studies and more personal struggles than I co
 The most valuable things I learned weren't the ones I expected going in:
 
 - **People come and go. Try to stick with the people that appreciate you.** Throughout my time in college, I could see the people that appreciated my presense, and those that wanted me out of the room quicker than I can say "Cisco". Try to stick around those who actually appreciate you.
-- **Engineer things freak people out.** Every project where I was slightly out of my depth were nearly stopped by upper-level college officials. In spirit with the message above, get close with your professors. They might stick up for you when you're trying to build something incredible.
+- **Engineer complex things, puzzle college officials.** My senior capstone project was nearly stopped by upper-level college officials, but they did not succeed. In spirit with the message above, get close with your professors. They might stick up for you when you're trying to build something incredible.
 - **Write things down.** Half the reason this blog exists is that I kept losing my own hard-fought-for notes. Document clearly and you will do great things.
 
 > This degree is a credential. The experiences are what matter.
