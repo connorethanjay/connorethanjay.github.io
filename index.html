@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Connor E. Jay — Building infrastructure at the edge of what's possible.</title>
+  <meta name="description" content="Blue View — Connor E. Jay's technical journal on high-performance networking, homelab infrastructure, and building production-grade systems from scratch." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <script>(function(){try{if(localStorage.getItem('bv-theme')==='dark'){document.documentElement.setAttribute('data-theme','dark');}}catch(e){}})();</script>
+</head>
+<body>
+
+  <div class="scroll-progress" aria-hidden="true"></div>
+
+  <!-- NAV -->
+  <nav data-testid="site-nav">
+    <a href="index.html" class="nav-logo" data-testid="nav-logo">
+      <span class="prompt">~/</span>blue-view
+    </a>
+    <div class="nav-links">
+      <a href="#recent-posts" class="active" data-testid="nav-writing">writing</a>
+      <a href="#projects" data-testid="nav-projects">projects</a>
+      <a href="#about" data-testid="nav-about">about</a>
+      <a href="Connor E. Jay - Resume 6-17-26.pdf" class="nav-badge" target="_blank" rel="noopener" data-testid="nav-resume">resume ↗</a>
+      <button class="theme-toggle" id="theme-toggle" data-testid="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header class="home-hero">
+    <div class="hero-eyebrow hero-animate" style="animation-delay:.05s">blue-view.org — Connor E. Jay's technical journal</div>
+    <h1 class="hero-animate" style="animation-delay:.1s"
+        data-typing='["Building infrastructure","at the edge of what'"'"'s possible."]'>
+      <span class="prompt-prefix">$ </span>Building infrastructure<br>at the edge of what's possible.
+    </h1>
+    <p class="hero-animate" style="animation-delay:.2s">
+      Diving into high-performance networking, homelab infrastructure, and the lessons learned building production-grade systems from scratch.
+    </p>
+    <div class="hero-links hero-animate" style="animation-delay:.3s">
+      <a class="btn-primary" href="#recent-posts" data-testid="hero-read-latest">
+        Read the latest posts <span class="arrow">→</span>
+      </a>
+      <a class="btn-secondary" href="#projects" data-testid="hero-view-projects">View projects</a>
+    </div>
+  </header>
+
+  <!-- PROJECTS -->
+  <section class="section" id="projects">
+    <div class="section-label reveal">Work-in-progress projects</div>
+    <div class="project-grid">
+      <a class="card-link reveal" data-reveal="left" data-delay="0"
+         href="https://github.com/connorethanjay/blue-view-homelab" target="_blank" rel="noopener"
+         data-testid="project-card-homelab">
+        <div class="project-card">
+          <div class="card-header">
+            <span class="card-status status-active">Active</span>
+          </div>
+          <div class="card-title">Blue View — 100GbE RoCEv2 Virtualization Fabric</div>
+          <div class="card-desc">Proxmox VE cluster over 100GbE fabric with Slurm deployed for batch scheduling. Intended to mirror infrastructure patterns found in HPC and financial services environments.</div>
+          <div class="card-tags">
+            <span class="tag">RoCEv2</span>
+            <span class="tag">Cisco NX-OS</span>
+            <span class="tag">Proxmox VE</span>
+            <span class="tag">Slurm</span>
+          </div>
+        </div>
+      </a>
+      <a class="card-link reveal" data-reveal="right" data-delay="120"
+         href="https://github.com/connorethanjay/bulwarkOS" target="_blank" rel="noopener"
+         data-testid="project-card-bulwarkos">
+        <div class="project-card">
+          <div class="card-header">
+            <span class="card-status status-active">Active</span>
+          </div>
+          <div class="card-title">BulwarkOS — Privacy-first Linux</div>
+          <div class="card-desc">A Fedora Silverblue-based immutable Linux distribution which brings Qubes OS' threat model to libvirt/KVM. Uses VFIO passthrough to isolate hardware eg. your physical network interfaces &amp; graphics card.</div>
+          <div class="card-tags">
+            <span class="tag">Linux</span>
+            <span class="tag">VFIO</span>
+            <span class="tag">GTK4</span>
+            <span class="tag">Python</span>
+          </div>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <!-- RECENT POSTS (rendered from posts.js) -->
+  <section class="section" id="recent-posts">
+    <div class="section-label reveal">Recent posts</div>
+    <div class="post-list" id="recent-posts-list" data-testid="recent-posts-list">
+      <!-- injected by assets/js/home.js -->
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <div class="section-label reveal">About</div>
+    <div class="about-strip reveal" data-reveal="scale" data-testid="about-strip">
+      <img class="about-avatar" src="Profile.png" alt="Connor E. Jay" />
+      <div class="about-text">
+        <h3>Connor E. Jay — Systems Engineer</h3>
+        <p>Champlain College, B.S. in Cybersecurity.<br />
+           Production by day, learning by night.</p>
+      </div>
+      <div class="about-links">
+        <a href="https://github.com/connorethanjay" class="about-link" target="_blank" rel="noopener" data-testid="about-github">GitHub</a>
+        <a href="https://www.linkedin.com/in/connorethanjay" class="about-link" target="_blank" rel="noopener" data-testid="about-linkedin">LinkedIn</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-inner">
+      <p>© <span id="year"></span> Connor E. Jay · Building infrastructure at the edge of what's possible.</p>
+      <div class="footer-links">
+        <a href="https://github.com/connorethanjay" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://www.linkedin.com/in/connorethanjay" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+  <script src="assets/js/posts.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/home.js"></script>
+</body>
+</html>

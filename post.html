@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Loading… — Blue View</title>
+  <meta name="description" content="A technical post from Connor E. Jay's Blue View journal." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <script>(function(){try{if(localStorage.getItem('bv-theme')==='dark'){document.documentElement.setAttribute('data-theme','dark');}}catch(e){}})();</script>
+</head>
+<body>
+
+  <div class="scroll-progress" aria-hidden="true"></div>
+
+  <!-- NAV -->
+  <nav data-testid="site-nav">
+    <a href="index.html" class="nav-logo" data-testid="nav-logo">
+      <span class="prompt">~/</span>blue-view
+    </a>
+    <div class="nav-links">
+      <a href="index.html#recent-posts" data-testid="nav-writing">writing</a>
+      <a href="index.html#projects" data-testid="nav-projects">projects</a>
+      <a href="index.html#about" data-testid="nav-about">about</a>
+      <a href="resume.pdf" class="nav-badge" target="_blank" rel="noopener" data-testid="nav-resume">resume ↗</a>
+      <button class="theme-toggle" id="theme-toggle" data-testid="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      </button>
+    </div>
+  </nav>
+
+  <!-- POST HEADER -->
+  <header class="post-header">
+    <a class="back-link" href="index.html" data-testid="post-back-link">← Back to all writing</a>
+    <div class="post-eyebrow">
+      <span id="post-eyebrow-date"></span>
+    </div>
+    <h1 id="post-title" data-testid="post-title">Loading…</h1>
+    <p class="post-summary" id="post-summary"></p>
+    <div class="post-tags" id="post-tags"></div>
+  </header>
+
+  <hr class="post-divider" />
+
+  <!-- POST BODY (rendered from posts.js markdown) -->
+  <article class="post-body" id="post-body" data-testid="post-body">
+    <!-- injected by assets/js/post.js -->
+  </article>
+
+  <!-- PREV / NEXT -->
+  <nav class="post-nav">
+    <a id="post-prev" data-testid="post-prev"></a>
+    <a id="post-next" data-testid="post-next"></a>
+  </nav>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-inner">
+      <p>© <span id="year"></span> Connor E. Jay · Building infrastructure at the edge of what's possible.</p>
+      <div class="footer-links">
+        <a href="https://github.com/connorethanjay" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://www.linkedin.com/in/connorethanjay" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+  <script src="assets/vendor/marked.min.js"></script>
+  <script src="assets/js/posts.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/post.js"></script>
+</body>
+</html>
